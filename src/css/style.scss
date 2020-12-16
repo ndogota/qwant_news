@@ -1,0 +1,115 @@
+$background-color-dark: #292A32;
+$background-color-light: #ffffff;
+$complimentary-color-dark: #393B43;
+$complimentary-color-light: #FEFFFF;
+
+body {
+  background-color: $background-color-light;
+  color: $background-color-dark;
+}
+
+#category {
+  min-height: 25px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.71);
+  z-index: 2;
+}
+
+body.dark-mode {
+  background-color: $background-color-dark;
+  color: $background-color-light;
+}
+
+#logoQwant.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#qwantActualite.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#qozIconImage.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#nightModeImage.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#qplusImage.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#quserImage.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#qsettingImage.dark-mode {
+  filter: brightness(0) invert(1);
+}
+
+#category.dark-mode {
+  background: rgba(42, 43, 50, 0.51) linear-gradient(0deg, rgba(45, 45, 45, 0.16) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#Économie.dark-mode {
+  color: $background-color-light;
+}
+
+#Sports.dark-mode {
+  color: $background-color-light;
+}
+
+#Santé.dark-mode {
+  color: $background-color-light;
+}
+
+#Divertissements.dark-mode {
+  color: $background-color-light;
+}
+
+#Politique.dark-mode {
+  color: $background-color-light;
+}
+
+#Innovations.dark-mode {
+  color: $background-color-light;
+}
+
+#display_filter_img.dark-mode {
+  color: $background-color-light;
+}
+
+#Économie.dark-mode:hover {
+  color: #65CEE7;
+}
+
+#Sports.dark-mode:hover {
+  color: #AF27CC;
+}
+
+#Santé.dark-mode:hover {
+  color: #FDDB17;
+}
+
+#Divertissements.dark-mode:hover {
+  color: #FF3B4A;
+}
+
+#Politique.dark-mode:hover {
+  color: #4BA2EA;
+}
+
+#Innovations.dark-mode:hover {
+  color: #87C966;
+}
+
+#q {
+  background-color: $background-color-light;
+  color: $background-color-dark;
+}
+
+#q.dark-mode {
+  background-color: $background-color-dark;
+  color: $background-color-light;
+}

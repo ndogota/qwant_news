@@ -1,0 +1,446 @@
+@media screen {
+    #navMobileButton {
+        margin-top: 2%;
+        margin-right: 1.2%;
+        margin-left: 1.2%;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    #informationDiv {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    #logoQwantActualite {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .radioButtonHeader {
+        display: none !important;
+    }
+    .buttonHeader {
+        display: none !important;
+    }
+    #navMobileButton {
+        display: inherit;
+    }
+    #rightPanel {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    #HeaderButtonDivMobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #HeaderButtonDivMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+input, button, submit {
+    border:none;
+    background-color: #fff0;
+}
+
+input#submitButton{
+    color: rgba(255, 255, 255, 0);
+}
+
+input:focus {outline:none;}
+
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0 3px 3px;
+    margin: 5px 1px 3px 0;
+    border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    padding: 3px 0 3px 3px;
+    margin: 5px 1px 3px 0;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+}
+
+a:link {
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #000000;
+}
+a:active {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[id="c1"] + label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../img/button/qozButtonUnpressed.png) left top no-repeat;
+    cursor: pointer;
+}
+
+input[id="c1"]:checked + label span {
+    background: url(../img/button/qozButtonPressed.png) top no-repeat;
+}
+
+input[id="c3"] + label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../img/button/qozButtonUnpressed.png) left top no-repeat;
+    cursor: pointer;
+}
+
+input[id="c3"]:checked + label span {
+    background: url(../img/button/qozButtonPressed.png) top no-repeat;
+}
+
+input[id="c2"] + label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -1px 100px 0 0;
+    vertical-align: middle;
+    background: url(../img/button/qnuitButtonUnpressed.png) left top no-repeat;
+    cursor: pointer;
+}
+input[id="c2"]:checked + label span {
+    background: url(../img/button/qnuitButtonPressed.png) top no-repeat;
+}
+
+input[id="c4"] + label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url(../img/button/qnuitButtonUnpressed.png) left top no-repeat;
+    cursor: pointer;
+}
+input[id="c4"]:checked + label span {
+    background: url(../img/button/qnuitButtonPressed.png) top no-repeat;
+}
+
+.check {
+    width: 25px;
+    height: 25px;
+    margin-right: 100px;
+}
+
+.headerDiv {
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.09);
+    padding-bottom: 13px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#new_fav {
+    background-color: #f5f5f5;
+    border-radius: 0.3em;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#informationSpace {
+    padding: 1%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 1em;
+}
+
+#qwantActualite {
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5%;
+}
+
+#logoQwantActualite {
+    margin: auto;
+}
+
+#qozIcon {
+    flex: 0.10;
+}
+
+#searchBar {
+    width: 100%;
+    max-width: 590px;
+    padding-bottom: 5px;
+}
+
+
+
+#titleArticle {
+    font-size: 20px;
+}
+
+#articleDiv {
+    margin: 5px auto auto auto;
+}
+
+#informationDiv {
+    padding-top: 0.2%;
+    padding-left: 0.5%;
+    max-width: 400px;
+    min-width: 100px;
+}
+
+#q {
+    padding-right: 40px;
+    padding-left: 19px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 5px -35px 0px 0;
+    border-radius: 2em;
+    width: 100%;
+    height: 35px;
+    border: 0;
+}
+
+
+#searchBar {
+    background-image: url("../img/searchBarColor.png");
+    background-size: 102% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5em;
+    margin: auto;
+}
+
+#headerPanel {
+    margin-top: 0.9%;
+}
+
+#mainDiv {
+    margin-top: 0.9%;
+}
+#rightPanel {
+    margin-top: 5px;
+    margin-right: 0.5%;
+    padding-bottom: 1%;
+    margin-left: 0.5%;
+    padding-right: 1.6%;
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+}
+
+#pannelSources {
+    margin-left: 0.01%;
+}
+
+.informationBubble {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: left;
+    border-radius: 2em;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0) inset;
+}
+
+.buttonSources {
+    outline: none !important;
+    color: #555555;
+    border: solid #e1e1e1 1px;
+    border-radius: 1em;
+}
+
+.buttonSources:active {
+    outline: yellowgreen;
+    color: #1c1c1c;
+}
+
+.buttonInformation {
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+
+.buttonHeader {
+    margin-top: 0.85%;
+    flex: 0.09;
+}
+
+.mobileHeaderButton {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+}
+
+.NavBarButton:active + #searchBar {
+    display: none;
+}
+
+.radioButtonHeader {
+    margin-top: 0.85%;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+}
+
+.checkedButtonDiv {
+    margin-right: 50px;
+    margin-left: -190px;
+}
+
+.searchButton {
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/qwantSearchLogo.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    color: rgba(0, 0, 0, 0);
+}
+
+.article {
+    border: solid 1px #ffffff;
+    border-radius: 1em;
+    padding: 20px;
+    background-color: #fefefe;
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgb(225, 225, 225), 0 0 40px rgb(255, 255, 255) inset;
+    -moz-box-shadow: 0 1px 4px rgb(225, 225, 225), 0 0 40px rgb(255, 255, 255) inset;
+    box-shadow: 0 1px 4px rgb(225, 225, 225), 0 0 40px rgb(255, 255, 255) inset;
+}
+
+.article:before, .article:after
+{
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(205, 205, 205, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(205, 205, 205, 0.8);
+    box-shadow: 0 0 20px rgba(205, 205, 205, 0.8);
+    top: 50%;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+.article:after
+{
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+}
+#hide_right {
+    width: 25px;
+    height: 25px;
+}
+
+#myfavli{
+    border: 0 solid grey;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    box-shadow:0 0 2px black;
+}
+
+#ul1fav {
+    width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+#ul1fav li {
+    float: left;
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+#ul1fav ul.ul2fav {
+    height: auto;
+    width: 120px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: none;
+    color: grey;
+    background-color: white;
+    box-shadow: 0 0 3px black;
+
+}
+
+#ul1fav li:hover ul.ul2fav {
+    display: block;
+    z-index: 99;
+}
+
+#ul1fav ul.ul2fav li:hover {
+    background: lightgrey;
+}
+.fav_choice {
+    background-color: rgba(0, 0, 0, 0);
+    width: 59%;
+    overflow: hidden;
+}
+
+.modify_fav, .trash_fav {
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-flex;
+    float: right;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.modify_fav, .fav_choice{
+    border-right: 1px solid darkgrey;
+}
+
+.modify_fav:hover, .trash_fav:hover, .fav_choice:hover{
+    background-color: grey;
+    color: white;
+}

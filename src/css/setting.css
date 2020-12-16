@@ -1,0 +1,116 @@
+#setting_user_logo {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 27%;
+}
+.card-header {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#wrapper {
+    padding-right: 0;
+    margin: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-right: 250px;
+}
+
+#sidebar-wrapper {
+    background-image: linear-gradient(to top, #292A32 0%, #292A32 100%);
+    z-index: 1000;
+    position: fixed;
+    right: 250px;
+    width: 0;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-left: -250px;
+}
+
+#nb_column {
+    padding: 5px 5px 5px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+}
+
+#nb_column:focus {
+    border: rgb(170, 201, 255) 1px solid;
+}
+
+#submitButtonSetting {
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    height: 30px;
+    width: 60px;
+    margin: 5px auto auto;
+}
+
+.fa-times {
+    color: #ffffff;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#wrapper {
+    padding-right: 0px;
+}
+
+#wrapper.toggled {
+    padding-right: 0;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 0;
+}
+
+#page-content-wrapper {
+    padding: 20px;
+    position: relative;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-left: 0;
+}
+
+#setting_card {
+    height: auto;
+}
+#setting_link {
+    color: #FFFFFF;
+}
